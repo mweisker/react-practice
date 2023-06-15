@@ -11,6 +11,7 @@
   padding: 0.7vw;
   font-weight: bold;
   box-shadow: 0 0 1vw  rgba(0, 0, 0, 0.5);
+  margin-bottom: 4vw;
 }
 
 .home-button:hover {
