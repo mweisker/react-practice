@@ -1,9 +1,14 @@
-import Welcome from './components/Welcome'
+import { Routes, Route } from 'react-router-dom';
+import Welcome from './path/Welcome';
+import HexGame from './path/HexGame';
 
 export default function App() {
   return (
-  <>
-  < Welcome />
-  </>
+  <div>
+  <Routes>
+    <Route path='/' element={ <Welcome/> } />
+    <Route path='/hexgame' element={ <HexGame/>} />
+  </Routes>
+  </div>
   );
   }
