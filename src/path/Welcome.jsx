@@ -3,6 +3,8 @@ import '../css/main.css';
 
 import { useNavigate } from 'react-router-dom';
 
+// yarn run dev --host  
+
 
 export default function Welcome() {
   const navigate = useNavigate();
